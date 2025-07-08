@@ -1,0 +1,92 @@
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.image-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 45, 84, 0.85);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.scroll-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    transition: transform 0.3s ease;
+}
+
+.scroll-container.dragging {
+    cursor: grabbing;
+    user-select: none;
+}
+
+.scroll-item {
+    flex: 0 0 25%;
+    /* 4 kolommen zichtbaar (100 / 4 = 25%) */
+    min-width: 25%;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #212D54;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.scroll-next {
+    right: 0;
+    z-index: 999;
+    position: absolute;
+    color: white;
+    padding: 1rem;
+}
+
+.scroll-prev {
+    left: 0;
+    z-index: 999;
+    position: absolute;
+    color: white;
+    padding: 1rem;
+}
