@@ -1,0 +1,24 @@
+[data-name="innovations-section"] {
+    .image-button-wrapper {
+        position: relative;
+        display: inline-block;
+        border: solid 2px #212D54;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay-btn {
+            position: absolute;
+            bottom: 1rem; // of gebruik top: 50% met transform als je 'm wil centreren
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            background-color: #212D54;
+            color: white;
+            padding: 0.5rem 1.25rem;
+            white-space: nowrap;
+        }
+    }
+}
