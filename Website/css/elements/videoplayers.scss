@@ -1,0 +1,13 @@
+// Footer Videoplayer
+[data-name="footer-video"] {
+    box-shadow: -1px -4px 8px -1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: -1px -4px 8px -1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -1px -4px 8px -1px rgba(0, 0, 0, 0.35);
+}
+
+[data-name="footer-video"],
+[data-name="footer-video"] pjsdiv {
+    min-height: 45vh !important;
+    max-height: 45vh !important;
+    min-width: 100% !important;
+}
