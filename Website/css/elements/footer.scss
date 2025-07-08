@@ -1,0 +1,40 @@
+#footer {
+    background-color: #212D54;
+    p,
+    li {
+        color: #FFFFFF;
+    }
+
+    a {
+        text-transform: initial;
+        font-size: 0.9rem;
+    }
+}
+
+.o_footer_copyright {
+    .js_language_selector button span {
+        color: #FFFFFF !important;
+    }
+
+    .js_language_selector button::after {
+        display: none;
+    }
+
+    .js_language_selector .btn-outline-secondary.dropdown-toggle.show {
+        background-color: rgba(232, 236, 239, 0.4);
+        border-width: 0;
+    }
+
+    .col-sm {
+        position: relative;
+        /* als dat nog niet zo is */
+    }
+
+    .o_footer_copyright_name {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+}
