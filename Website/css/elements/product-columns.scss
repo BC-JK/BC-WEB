@@ -1,0 +1,26 @@
+[data-name="Product-Kolommen"] {
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    
+    .kolom-body {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+    }
+    .form {
+        box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.37);
+        -webkit-box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.37);
+        -moz-box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.37);
+    }
+}
