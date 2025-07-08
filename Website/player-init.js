@@ -14,7 +14,8 @@
   file: "//samplelib.com/lib/preview/mp4/sample-5s.mp4",
   poster: "/web/image/website.s_image_text_default_image",
   autoplay: "0",
-  muted: "1"
+  muted: "1",
+  controls: ["play", "fullscreen", "buffer"]
   });
   });
   }
@@ -27,7 +28,8 @@
   file: "//commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
   poster: "/web/image/website.s_image_text_default_image",
   autoplay: "0",
-  muted: "1"
+  muted: "1",
+  controls: ["play", "fullscreen", "buffer"]
   });
   });
   }
