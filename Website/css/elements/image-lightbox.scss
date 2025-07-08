@@ -1,0 +1,35 @@
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.lightbox.hidden {
+    display: none;
+}
+
+.lightbox-img {
+    max-width: 90vw;
+    max-height: 90vh;
+    cursor: default;
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10000;
+}
