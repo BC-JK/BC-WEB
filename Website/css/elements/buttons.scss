@@ -1,0 +1,39 @@
+.btn {
+    font-family: 'Montserrat SemiBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 2px !important;
+}
+
+// Primary
+.btn-primary {
+    background-color: #568BC8 !important;
+    color: #FFFFFF !important;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+}
+
+// Primary 2
+.btn-custom {
+    background-color: #212D54 !important;
+    color: #FFFFFF;
+}
+
+// Secondary
+.btn-secondary {
+    background-color: transparent !important;
+    border-color: rgba(232, 236, 239, 0.5);
+    color: rgba(232, 236, 239, 0.5);
+    font-size: 0.75rem;
+    padding: 0.6rem 1.8rem;
+    border-width: 2px;
+}
+
+// Link Only
+section a {
+    font-family: 'Montserrat SemiBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    color: #568BC8;
+    font-size: 0.9rem;
+}
