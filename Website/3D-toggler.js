@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     viewer.classList.toggle('hidden-3d');
 
     btn.innerHTML = showing3D
-      ? '<i class="fas fa-image"></i> Toon afbeelding'
-      : '<i class="fas fa-cube"></i> Bekijk in 3D';
+      ? '<i class="fas fa-image"></i>'
+      : '<i class="fas fa-sync-alt"></i> <span>3D</span>';
   });
 });
