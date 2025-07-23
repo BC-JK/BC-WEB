@@ -6,8 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const icon3d = toggleBtn.querySelector('.toggle-3d-icon');
   const iconImg = toggleBtn.querySelector('.toggle-img-icon');
 
+  if (!wrapper || !toggleBtn || !staticImage || !modelViewer || !icon3d || !iconImg) {
+  console.warn('3D switch: missing required element(s)');
+  return;
+}
+
   toggleBtn.addEventListener('click', () => {
-    const is3DVisible = modelViewer.style.display === 'block';
+    const is3DVisible = getComputedStyle(modelViewer).display !== 'none';
 
     if (is3DVisible) {
       icon3d.style.display = 'block';
