@@ -11,7 +11,7 @@
   function() {
   new Playerjs({
   id: "player",
-  file: "https://vimeo.com/1118096254",
+  file: "https://p46.tr4.n0.cdn.zight.com/items/o0u0Yv2j/dd307e52-6c7b-4db5-80ad-908e7f16804b.webm",
   poster: "/web/image/website.s_image_text_default_image",
   autoplay: "0",
   muted: "1",
