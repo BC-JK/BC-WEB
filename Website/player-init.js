@@ -25,7 +25,7 @@
   function() {
   new Playerjs({
   id: "player-rotor",
-  file: "//commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+  file: "https://vimeo.com/1118106388",
   poster: "/web/image/website.s_image_text_default_image",
   autoplay: "0",
   muted: "1",
