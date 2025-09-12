@@ -11,7 +11,7 @@
   function() {
   new Playerjs({
   id: "player",
-  file: "//samplelib.com/lib/preview/mp4/sample-5s.mp4",
+  file: "https://www.youtube.com/watch?v=zlJWjPVab-8",
   poster: "/web/image/website.s_image_text_default_image",
   autoplay: "0",
   muted: "1",
